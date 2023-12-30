@@ -1,0 +1,16 @@
+.window-form__title {
+  padding: 0;
+  margin: 0 0 40px;
+  max-width: 900px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+
+@media screen and (min-width: 769px) {
+  .window-form__title {
+    margin: 0 0 50px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}

@@ -1,0 +1,16 @@
+.header__info {
+  color: #a9a9a9;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  transition: 1s;
+}
+
+@media screen and (min-width: 769px) {
+  .header__info {
+    margin: 6px 0 4px 0;
+    flex-direction: row;
+    column-gap: 24px;
+    height: fit-content;
+  }
+}

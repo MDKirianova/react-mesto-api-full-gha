@@ -1,0 +1,12 @@
+.window-form__login-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 0 0 3px;
+  transition: opacity ease-in-out 0.2s;
+  cursor: pointer;
+
+}
+
+.window-form__login-link:hover {
+  opacity: 0.6;
+}

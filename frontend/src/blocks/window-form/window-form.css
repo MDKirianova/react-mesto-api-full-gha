@@ -1,0 +1,9 @@
+.window-form {
+  margin: 40px auto;
+}
+
+@media screen and (min-width: 769px) {
+  .window-form {
+    margin: 60px auto 80px;
+  }
+}

@@ -1,0 +1,12 @@
+.grid-elements {
+  margin: 0 auto;
+  padding: 0 0 48px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1025px) {
+  .grid-elements {
+    padding: 0 0 67px;
+  }
+}

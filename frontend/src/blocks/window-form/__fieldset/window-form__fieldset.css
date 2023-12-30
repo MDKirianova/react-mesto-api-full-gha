@@ -1,0 +1,11 @@
+.window-form__fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+}
+
+@media screen and (min-width: 769px) {
+  .window-form__fieldset {
+    width: 358px;
+  }
+}

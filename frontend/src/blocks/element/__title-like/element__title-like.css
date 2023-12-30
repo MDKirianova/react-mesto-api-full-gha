@@ -1,0 +1,6 @@
+.element__title-like {
+  margin: 25px 15px 23px 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

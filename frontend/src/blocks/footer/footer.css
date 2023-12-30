@@ -1,0 +1,36 @@
+.footer {
+  padding: 0 19px 36px;
+  border: 0;
+  color: #545454;
+  max-width: 1280px;
+}
+
+@media (min-width: 321px) and (max-width: 425px) {
+  .footer {
+    padding: 0 24px 36px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .footer {
+    padding: 0 48px 36px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .footer {
+    padding: 0 100px 36px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: 0 150px 36px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding: 0 200px 36px;
+  }
+}

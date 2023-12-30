@@ -1,0 +1,11 @@
+.window-form__input {
+  all: unset;
+  margin: 0 0 30px;
+  padding: 0 0 8px;
+  border-bottom: 2px solid #CCCCCC;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+}
