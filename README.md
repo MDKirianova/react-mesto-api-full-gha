@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 84.201.162.25
 
-Frontend https://...
+Frontend https://mdkirianova.students.nomoredomainsmonster.ru/
 
-Backend https://...
+Backend https://api.mdkirianova.students.nomoredomainsmonster.ru/
