@@ -10,6 +10,7 @@ const auth = require('./middlewares/auth');
 const errorHandler = require('./middlewares/errorHandler');
 const NotFoundError = require('./errors/NotFound');
 const { validateCreateUser, validateLoginUser } = require('./middlewares/validation');
+const { requestLogger, errorLogger } = require('./middlewares/logger');
 
 const {
   PORT = 3000,
@@ -25,6 +26,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(helmet());
+app.use(requestLogger);
 
 app.get('/crash-test', () => {
   setTimeout(() => {
@@ -38,6 +40,8 @@ app.post('/signin', validateLoginUser, login);
 app.use(auth);
 app.use(userRouter);
 app.use(cardRouter);
+
+app.use(errorLogger);
 
 app.use((req, res, next) => next(new NotFoundError('Страницы по такому URL не найдено')));
 app.use(errors());
